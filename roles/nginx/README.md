@@ -1,13 +1,5 @@
 Ansible NGINX Role
 ==================
-
-[![Ansible Galaxy](https://img.shields.io/badge/galaxy-nginxinc.nginx-5bbdbf.svg)](https://galaxy.ansible.com/nginxinc/nginx)
-[![Build Status](https://travis-ci.org/nginxinc/ansible-role-nginx.svg?branch=master)](https://travis-ci.org/nginxinc/ansible-role-nginx)
-
-This role installs NGINX Open Source, NGINX Plus, the NGINX Amplify agent, the NGINX Controller agent, or NGINX Unit on your target host.
-
-**Note:** This role is still in active development. There may be unidentified issues and the role variables may change as development continues.
-
 Requirements
 ------------
 
