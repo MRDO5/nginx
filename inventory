@@ -1,0 +1,17 @@
+[localserver]
+localhost
+
+[servers]
+#prod
+centos
+
+# Database server
+[db]
+
+#[multi:children]
+#app
+#db
+
+#[local]
+#localhost ansible_connection=local
+
