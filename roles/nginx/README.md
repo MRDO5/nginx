@@ -3,12 +3,6 @@ Ansible NGINX Role
 Requirements
 ------------
 
-This role was developed using Ansible 2.4.0.0. Backwards compatibility is not guaranteed.
-
-Use `ansible-galaxy install nginxinc.nginx` to install the role on your system.
-
-It supports all platforms supported by [NGINX Open Source](https://nginx.org/en/linux_packages.html#mainline) and [NGINX Plus](https://www.nginx.com/products/technical-specs/):
-
 **NGINX Open Source**
 
 ```yaml
@@ -624,19 +618,3 @@ This is a sample playbook file for deploying the Ansible Galaxy NGINX role in a 
       - unit-php
       - unit-perl
 ```
-
-To run any of the above sample playbooks create a `setup-nginx.yml` file and paste the contents. Executing the Ansible Playbook is then as simple as executing `ansible-playbook setup-nginx.yml`.
-
-Alternatively, you can also clone this repository instead of installing it from Ansible Galaxy. If you decide to do so, replace the role variable in the previous sample playbooks from `nginxinc.nginx` to `ansible-role-nginx`.
-
-License
--------
-
-[Apache License, Version 2.0](https://github.com/nginxinc/ansible-role-nginx/blob/master/LICENSE)
-
-Author Information
-------------------
-
-Alessandro Fael Garcia
-
-[NGINX Inc](https://www.nginx.com/)
